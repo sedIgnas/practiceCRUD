@@ -21351,8 +21351,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "overflow-hidden overflow-x-auto p-6 bg-white border-gray-200"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"min-w-full align-middle\"><table><thead><tr><th class=\"px-6 py-3 bg-gray-50 text-left\">ID</th><th class=\"px-6 py-3 bg-gray-50 text-left\">Title</th><th class=\"px-6 py-3 bg-gray-50 text-left\">Content</th><th class=\"px-6 py-3 bg-gray-50 text-left\">Created at</th></tr></thead><tbody><tr><td>1</td><td>A</td><td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam sit temporibus reprehenderit. In nihil dolor voluptas numquam tempora sint, quo tempore natus temporibus eum id nisi dolorem aperiam soluta eaque similique earum fugit, laboriosam cumque beatae. Perspiciatis doloremque et excepturi magnam? Labore quod exercitationem maxime vitae provident nobis fugiat? </td><td>2022-01-01 13:43:47</td></tr><tr><td>2</td><td>B</td><td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam sit temporibus reprehenderit. In nihil dolor voluptas numquam tempora sint, quo tempore natus temporibus eum id nisi dolorem aperiam soluta eaque similique earum fugit, laboriosam cumque beatae. Perspiciatis doloremque et excepturi magnam? Labore quod exercitationem maxime vitae provident nobis fugiat? </td><td>2022-01-01 13:43:47</td></tr><tr><td>3</td><td>C</td><td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam sit temporibus reprehenderit. In nihil dolor voluptas numquam tempora sint, quo tempore natus temporibus eum id nisi dolorem aperiam soluta eaque similique earum fugit, laboriosam cumque beatae. Perspiciatis doloremque et excepturi magnam? Labore quod exercitationem maxime vitae provident nobis fugiat? </td><td>2022-01-01 13:43:47</td></tr></tbody></table></div>", 1);
+
+var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache) {
-  return " Table coming soon ";
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
 }
 
 /***/ }),
