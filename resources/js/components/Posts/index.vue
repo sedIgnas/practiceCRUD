@@ -16,8 +16,7 @@
             focus:ring
             focus:ring-indigo-200
             focus:ring-opacity-50
-          "
-        >
+          ">
           <option value="" selected>-- Filter by category --</option>
           <option
             v-for="category in categories"
