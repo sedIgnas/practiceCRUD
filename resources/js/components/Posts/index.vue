@@ -271,20 +271,5 @@ export default {
       updateOrdering,
     };
   },
-  // data() {
-  //   return {
-  //     posts: []
-  //   }
-  // },
-  // mounted() {
-  //   this.fetchPosts();
-  // },
-  // methods: {
-  //   fetchPosts() {
-  //     axios.get('/api/posts')
-  //     .then(response => this.posts = response.data)
-  //     .catch(error => console.log(error))
-  //   }
-  // }
 };
 </script>
