@@ -9,12 +9,12 @@ import PostsEdit from '../components/Posts/Edit'
 import Login from '../components/Login'
 
 function auth(to, from, next) {
-  if(JSON.parse(localStorage.getItem('loggedIn'))){
-    next()
-  }
-    next('/login');
-}
+    if (JSON.parse(localStorage.getItem('loggedIn'))) {
+        next()
+    }
 
+    next('/login')
+}
 
 const routes = [
     {
